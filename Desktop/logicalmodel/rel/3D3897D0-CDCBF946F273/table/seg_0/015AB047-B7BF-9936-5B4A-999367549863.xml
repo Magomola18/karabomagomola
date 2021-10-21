@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="015AB047-B7BF-9936-5B4A-999367549863" name="employed_by">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Fitness_centre_centre_id" id="34DE6A3B-1A37-A2FB-0A34-F9DBDED11D1C">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50A49A58-A583-5B07-7135-51F7F277CE0F" referredColumn="07507294-293A-1D21-2FA2-431A6181090E"/>
+</associations>
+</Column>
+<Column name="Staff_staff_id" id="94A3B48C-D1A0-B029-8E47-D0A08522B3EC">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="788AF870-0E3D-6054-C53D-D1CEFBECB424" referredColumn="08EF93C1-1202-AAFC-A6C4-716004E9216A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C335F68-C801-9507-EB43-C2968362A636" name="employed_by_PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DE6A3B-1A37-A2FB-0A34-F9DBDED11D1C"/>
+<colUsage columnID="94A3B48C-D1A0-B029-8E47-D0A08522B3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8182F416-F8B6-F507-D158-BE384405A2A6" name="employed_by_Fitness_centre_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>3F988F61-C6B5-49BA-1D64-5E284A98EA2E</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DE6A3B-1A37-A2FB-0A34-F9DBDED11D1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37B40204-5F69-3323-D52B-8E90EC6639CD" name="employed_by_Staff_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>3F988F61-C6B5-49BA-1D64-5E284A98EA2E</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A3B48C-D1A0-B029-8E47-D0A08522B3EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

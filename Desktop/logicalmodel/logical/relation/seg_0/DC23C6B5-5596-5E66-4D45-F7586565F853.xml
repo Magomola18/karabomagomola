@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pays for" directorySegmentName="seg_0" id="DC23C6B5-5596-5E66-4D45-F7586565F853">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 14:26:00 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C0DFA86-485C-FA42-972B-0028F8E6CC5F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>295F26CA-DCAC-8F70-40FE-366EF6AFD4C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

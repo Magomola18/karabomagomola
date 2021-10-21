@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="295F26CA-DCAC-8F70-40FE-366EF6AFD4C2" name="Class">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:32:10 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="class_no" id="8661D43F-C355-46A8-9725-604656DD0721">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:32:32 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_description" id="B763E720-ACEF-446D-FBA2-08E613591EC3">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:33:01 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_start_time" id="A3ED9717-5A8E-EDF0-9B10-DCC6E7543CE3">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:33:13 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_start_date" id="2C273CF4-5727-BBE4-4797-0A6FBC54A7E9">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:33:34 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="max_no_participants" id="7344A6DF-F21C-74D3-6AED-69592530EBE2">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:34:19 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_no_of_sessions" id="EC6D158C-2F8B-FCDE-9299-1688A09F8EC8">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:34:54 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class_cost" id="6C007D11-DEB9-B82D-16E3-8115CFC9AF6F">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:35:02 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_id" id="517FD2BB-E337-52F7-6F81-A96D71821009">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:35:29 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id" id="B1ECD203-58F0-CC44-2987-E8C5C5E9A436">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:52:34 UTC</createdTime>
+<generatorID>CCBEE74F-2542-BB03-08F1-D1DD73250DB6</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<referedAttribute>D724E08D-B650-7AA6-F3A7-520C07AB8310</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D549ADC-2E14-1D4D-7586-DDFA1EB20964" name="Class PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:32:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8661D43F-C355-46A8-9725-604656DD0721</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BE75263-2622-37A9-B612-A499CD39F89D" name="Staff">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:40:22 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staff_id" id="FE89242E-092C-5FAF-B19F-6E0CFFD2E5D0">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:40:36 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_fname" id="D5C6B02C-E8EC-1E58-E255-A200698EB361">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:41:05 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_lname" id="C0434125-47A9-6A2D-71C7-70B9DFD828A9">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:40:50 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_mobile_no" id="1BFF3AF3-DF0C-EB3A-BFB7-E81A8F0DA5C6">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:41:23 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_start_date" id="1547F8AE-D681-F344-2DF9-ACBB65729751">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:41:29 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_role" id="26D87CBD-1588-A43E-9CFB-66A3D6A2AFC4">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:41:43 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F530A86-E8FC-D971-072E-6A7A7246891F" name="Staff PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:40:46 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE89242E-092C-5FAF-B19F-6E0CFFD2E5D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

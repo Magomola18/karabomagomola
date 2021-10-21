@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39AA4196-9757-47FD-9C52-E2B4DDECE14D" name="Manager">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:42:09 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="staff_id" id="97188E90-F897-AFFA-25B5-68B9018954B4">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:42:26 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id" id="83F0B9FD-CE5C-4D42-A56D-3CFE6D31DBD7">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:42:45 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_name" id="C22C9EEC-4C55-DFD3-F843-927B299A8D91">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:42:58 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_id1" id="CC06BF63-517A-2907-2887-FFFB4DABFD9A">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:23:18 UTC</createdTime>
+<generatorID>F8615C0A-4E60-3FF9-932D-1ECB42C20813</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<referedAttribute>FE89242E-092C-5FAF-B19F-6E0CFFD2E5D0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id2" id="C96880E0-1C6E-3533-A305-35D70937F30A">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:23:30 UTC</createdTime>
+<generatorID>7CE7C14A-0646-C1FC-9857-D0F4BBFB4C1C</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<referedAttribute>D724E08D-B650-7AA6-F3A7-520C07AB8310</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

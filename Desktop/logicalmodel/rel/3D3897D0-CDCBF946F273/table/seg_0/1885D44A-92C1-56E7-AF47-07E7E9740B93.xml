@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1885D44A-92C1-56E7-AF47-07E7E9740B93" name="Fitness_assessment">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>7275CDEC-A69A-58ED-4915-AA92B75941FB</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date_of_assessment" id="C0B726B7-415C-7AA4-01E5-A3910199CEF1">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>2914AD3B-89EB-47E5-F62B-83F7CBAF2FCE</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_fname" id="EFF3DE52-65BC-5D4C-CD2D-E73E0C8CC704">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>AA5D0460-9262-A13B-FEEA-C0392F6599A1</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="staff_id" id="24A13064-B337-6592-85DB-340E2334777D">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>88735080-28EC-E9E3-C2BB-23E155FC78D0</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_no" id="0870FDA9-51FD-EC96-A579-7CC644C4BC44">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>7BE3F6A9-014E-66EB-3F3A-A295E67F1F2D</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="194939A5-16CC-FABA-BED3-BF3ABFCC0B57">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>A0C64893-A079-8319-F663-E9D269324862</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bmi" id="C7B8ED93-E9BA-4E2D-41EF-9DAEE800D865">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>C4B1B6ED-5181-ED1F-E61F-44905B3ECE78</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vo2max" id="8ADCD430-537C-854B-D716-5B6AFD98586C">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>379B08E9-871B-239A-B03C-03D53F3D30A8</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_member_no" id="14B83258-FDE2-FF93-BC36-E221D21885BF">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>04C50669-53CD-7E98-7492-845E7EBC6ADE</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31C49CAD-E93D-E613-1C9F-A51A1B9EF5CD" referredColumn="2920FF43-F54F-44EC-F127-D25B76A5B3E3"/>
+</associations>
+</Column>
+<Column name="Staff_staff_id" id="BB7A613F-9805-BDD6-FEB4-EABF4BBD0821">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>FF608CA1-0D8A-6F0E-F624-839F74ED14DB</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2BB953F-7348-FB6D-48E6-2345E83392C7" referredColumn="08EF93C1-1202-AAFC-A6C4-716004E9216A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9AA98CA-EFD6-6E06-D982-1DEF840750A7" name="Fitness_assessment_PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>DAC0BA86-4BF4-BF9B-6804-3C239761A5CB</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0B726B7-415C-7AA4-01E5-A3910199CEF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3300587-99D0-8391-39A0-FFB41BCA5FE3" name="Fitness_assessment_Staff_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>F9CC8847-BA1A-AFA9-C047-841172A0DE06</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB7A613F-9805-BDD6-FEB4-EABF4BBD0821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE0D8C7C-51C8-DA46-BC0B-8588E70CBE44" name="Fitness_assessment_Member_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>3BA11ED4-ECE7-F64E-AECD-D4A8A7A736DE</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14B83258-FDE2-FF93-BC36-E221D21885BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

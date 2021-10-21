@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3322C2E2-3B14-294F-C635-79091A67E212" name="Relation_6">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_class_no" id="4BE9ACA7-A366-C95D-9B63-F2967E30C950">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B525F4F-A3A3-892D-D3A4-A22ACB440D9C" referredColumn="246ECB24-DF76-21F6-13D0-0FD4302224D9"/>
+</associations>
+</Column>
+<Column name="Member_member_no" id="7F657403-3B51-D6DF-D74A-93B905AA8C3C">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D31445-B1D0-B5A2-EA10-560932EBFD70" referredColumn="2920FF43-F54F-44EC-F127-D25B76A5B3E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="143E312E-114C-B200-F7D2-A805B6F42E8C" name="Relation_6_PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE9ACA7-A366-C95D-9B63-F2967E30C950"/>
+<colUsage columnID="7F657403-3B51-D6DF-D74A-93B905AA8C3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0239AF3-8F84-09E0-4FE8-FDEAA6EC1072" name="Relation_6_Class_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>F2F489B2-4795-26F4-DCCC-22DC6152BC47</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE9ACA7-A366-C95D-9B63-F2967E30C950"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F2D4726-2B3B-0CAE-C306-CF6267913BFF" name="Relation_6_Member_FK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:31:56 UTC</createdTime>
+<generatorID>F2F489B2-4795-26F4-DCCC-22DC6152BC47</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F657403-3B51-D6DF-D74A-93B905AA8C3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

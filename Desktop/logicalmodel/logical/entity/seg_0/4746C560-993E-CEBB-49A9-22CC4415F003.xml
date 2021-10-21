@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4746C560-993E-CEBB-49A9-22CC4415F003" name="Facility">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:38:44 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="facility_room_no" id="022DC3FC-1F29-37C9-6446-5768B8B5A04E">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:38:55 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facility_name" id="03EA3C01-16F0-F53C-032A-D043F578891C">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:39:04 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facility_description" id="EF9CC1DB-A122-3B42-A645-E7AAA4D4519D">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:39:36 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="facility_capacity" id="584B76C3-A087-7289-B9AE-DC4691B23EC3">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:39:39 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="staff_id" id="1E82585A-D52B-4BA6-A526-B00D24B86E37">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:20:35 UTC</createdTime>
+<generatorID>A99C7466-E79D-3F4F-C878-2EB027D138DE</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<referedAttribute>FE89242E-092C-5FAF-B19F-6E0CFFD2E5D0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="centre_id" id="D3948C94-DE49-AD40-132D-34BB64E42FC0">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 15:22:16 UTC</createdTime>
+<generatorID>413A2B1F-B483-B0EC-61A2-2D701FB2054C</generatorID>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<referedAttribute>D724E08D-B650-7AA6-F3A7-520C07AB8310</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D9F345C-58CA-5A61-658E-C82DD6C17E0B" name="Facility PK">
+<createdBy>karabomagomola</createdBy>
+<createdTime>2021-10-20 13:39:03 UTC</createdTime>
+<ownerDesignName>logicalmodel</ownerDesignName>
+<engineerTo>
+<item key="3D3897D0-D652-5023-2837-CDCBF946F273" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03EA3C01-16F0-F53C-032A-D043F578891C</attributeRef>
+<attributeRef>1E82585A-D52B-4BA6-A526-B00D24B86E37</attributeRef>
+<attributeRef>D3948C94-DE49-AD40-132D-34BB64E42FC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
